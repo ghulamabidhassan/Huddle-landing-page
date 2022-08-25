@@ -59,6 +59,10 @@
     margin-bottom: 3em;
   }
 
+  .logo:hover {
+    cursor: pointer;
+  }
+
   .mockup {
     width: 50em;
     height: fit-content;
@@ -136,13 +140,14 @@
 
   .fb {
     border: 0.8px solid white;
-    height: 3em;
-    width: 3em;
-    /* padding: 0em; */
+    height: 2em;
+    width: 2em;
+    margin: 0.2em;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5em;
   }
 
   .fb:hover {
