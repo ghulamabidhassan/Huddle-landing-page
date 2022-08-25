@@ -1,4 +1,4 @@
-@media screen and (max-width: 1449px) and (min-width: 901px) {
+@media screen and (min-width: 90.625em) {
   :root {
     --Violet: hsl(257, 40%, 49%);
     --Soft-Magenta: hsl(300, 69%, 71%);
@@ -19,6 +19,7 @@
     font-size: 1em;
     font-family: var(--font-Family);
     background-color: var(--Violet);
+    /* background-color: brown; */
   }
 
   .main {
@@ -38,10 +39,6 @@
     height: 100%;
   }
 
-  /* .container {
-
-  } */
-
   .desktop {
     display: block;
   }
@@ -52,19 +49,20 @@
 
   .container {
     position: absolute;
-    padding: 2.5em;
+    padding: 6em 6em 6em 8em;
     display: flex;
     height: 100%;
   }
 
   .logo {
-    height: 3em;
+    height: 5em;
     margin-bottom: 3em;
   }
 
   .mockup {
-    width: 38em;
-    height: 27em;
+    width: 50em;
+    height: fit-content;
+    margin-top: 5em;
     margin-bottom: 2.5em;
   }
 
@@ -72,37 +70,38 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 0 0 3em;
+    /* margin: 0 0 0 6em; */
+    padding-left: 7em;
     position: relative;
   }
 
   .titles {
-    margin-bottom: 1em;
+    margin-bottom: 1.9em;
   }
 
   .title {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 600;
     letter-spacing: 0.5px;
     word-spacing: 1px;
   }
 
   .para {
-    font-size: 1em;
+    font-size: 1.5em;
     word-spacing: 1px;
     padding: 0 0.3em 0 0.3em;
     margin-bottom: 1.5em;
     font-weight: 300;
     opacity: 0.9;
-    width: 85%;
+    width: 95%;
   }
 
   .btn {
     width: 30%;
-    padding: 1.2em 1em 1.2em 1em;
+    padding: 1em 1em 1em 1em;
     border-radius: 2em;
     border: none;
-    font-size: 0.85em;
+    font-size: 1.5em;
     letter-spacing: 0.5px;
     background-color: white;
     color: var(--Violet);
@@ -118,13 +117,12 @@
   }
 
   .social {
-    margin: 4em 0 2em 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 5em;
-    bottom: 0;
+    right: 12em;
+    bottom: 3em;
   }
 
   span {
@@ -138,9 +136,9 @@
 
   .fb {
     border: 0.8px solid white;
-    height: 1em;
-    width: 1em;
-    padding: 1em;
+    height: 3em;
+    width: 3em;
+    /* padding: 0em; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
