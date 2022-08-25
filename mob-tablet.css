@@ -55,6 +55,10 @@
     margin-bottom: 3em;
   }
 
+  .logo:hover {
+    cursor: pointer;
+  }
+
   .mockup {
     width: fit-content;
     height: fit-content;
